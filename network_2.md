@@ -165,7 +165,9 @@ Wireshark 是非常流行的网络封包分析软件，可以截取各种网络�
 ![路由追踪原理的效果](https://github.com/GuanErZhi/network/blob/main/network_pic/pic2/2.3.2.png)
 ![路由追踪原理的效果](https://github.com/GuanErZhi/network/blob/main/network_pic/pic2/2.3.3.png)
 
-Tracert 先发送 TTL 为 1 的回应数据包，并在随后的每次发送过程将 TTL 递增 1，直到目标响应或 TTL 达到最大值，从而确定路由。通过检查中间路由器发回的“ICMP 已超时”的消息确定路由。某些路由器不经询问直接丢弃 TTL 过期的数据包，这在 Tracert 实用程序中看不到。
+路由追踪原理：
+
+Tracert 先发送 TTL 为 1 的回应数据包，并在随后的每次发送过程将 TTL 递增 1，直到目标响应或 TTL 达到最大值，从而确定路由。通过检查中间路由器发回的“ICMP 已超时”的消息确定路由。
 
 > 问题：
 > 在 IPv4 中，TTL 虽然定义为生命期即 Time To Live，但现实中我们都以跳数/节点数进行设置。如果你收到一个包，其 TTL 的值为 50，那么可以推断这个包从源点到你之间有多少跳？
