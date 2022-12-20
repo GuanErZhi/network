@@ -282,7 +282,7 @@ DNS 查询和应答的相关字段的含义：
 
 ![应答](https://github.com/GuanErZhi/network/blob/main/network_pic/pic2/4.2.2.png)
 
-请求的头部有：
+响应的头部有：
 
 - Age 从原始服务器到代理缓存形成的估计时间
 - Expires 相应过期的日期和时间
