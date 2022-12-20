@@ -89,6 +89,7 @@ IP 地址：`192.168.43.221`（ IPv4 地址）
 可通过网站 <http://ip.cn> 查看这些节点位于何处，是哪个公司的，大致清楚本机到百度服务器之间的路径。
 
 路径如下：
+
 ![节点位置的效果](https://github.com/GuanErZhi/network/blob/main/network_pic/ps1/1.1.png)
 ![节点位置的效果](https://github.com/GuanErZhi/network/blob/main/network_pic/ps1/1.2.png)
 ![节点位置的效果](https://github.com/GuanErZhi/network/blob/main/network_pic/ps1/1.3.png)
